@@ -1,0 +1,5 @@
+% Sumar los elementos de una lista
+suma_lista([],0).
+suma_lista([X|L],N) :- suma_lista(L,C), N is C+X.
+
+% Prueba suma_lista([11,33,9,6,10,20],N). 
